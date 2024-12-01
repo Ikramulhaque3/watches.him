@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Font awesome
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+
+
+
+    <div class="container">
+        <!-- <img src="./images/Rolex Datejust 79.webp" style="width: fit-content; height:fit-content;" alt=""> -->
+
+        <div class="navbar">
+            <div class="logo">
+                <h1>H.I <span>Watches</span><br></h1>
+            </div>
+        </div>
+
+        <div class="details">
+            <ul>
+                <li><select onchange="selectBrand()" name="brands" id="brandSelect">
+                        <option disabled selected value=""> Select Brand </option>
+                    </select>
+                </li>
+            </ul>
+            <ul>
+                <li><select onchange="selectProduct()" name="products" id="productSelect">
+                        <option disabled selected value=""> Select Product </option>
+                    </select>
+                </li>
+            </ul>
+            <ul>
+                <li><button onclick="searchProduct()">Search Product</button>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="result">
+            <p id="productName"></p>
+            <img  src="" id="productImage">
+            <p id="productPrice"></p>
+            <p id="productDetail"></p>
+            
+
+
+        </div>
+
+
+
+
+        <script src="app.js"></script>
+
+
+</body>
+
+</html>
